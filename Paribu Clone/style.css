@@ -1,0 +1,282 @@
+        @import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            font-family: 'Amiko', sans-serif;
+            background-color: #303030;
+        }
+        
+        .text-10 {
+            font-size: 10px;
+        }
+        
+        .text-11 {
+            font-size: 11px;
+        }
+        
+        .text-12 {
+            font-size: 12px;
+        }
+        
+        .text-13 {
+            font-size: 13px;
+        }
+        
+        .text-14 {
+            font-size: 14px;
+        }
+        
+        .text-15 {
+            font-size: 15px;
+        }
+        
+        .text-16 {
+            font-size: 16px;
+        }
+        
+        .text-17 {
+            font-size: 17px;
+        }
+        
+        .text-18 {
+            font-size: 18px;
+        }
+        
+        .text-19 {
+            font-size: 19px;
+        }
+        
+        .text-20 {
+            font-size: 20px;
+        }
+        
+        .text-21 {
+            font-size: 21px;
+        }
+        
+        .text-22 {
+            font-size: 22px;
+        }
+        
+        .text-23 {
+            font-size: 23px;
+        }
+        
+        .text-24 {
+            font-size: 24px;
+        }
+        
+        .text-25 {
+            font-size: 25px;
+        }
+        
+        .text-40 {
+            font-size: 40px;
+        }
+        
+        .fw-400 {
+            font-weight: 400;
+        }
+        
+        .fw-600 {
+            font-weight: 600;
+        }
+        
+        .fw-700 {
+            font-weight: 700;
+        }
+        
+        .ml-40 {
+            margin-left: 40px;
+        }
+        
+        .text-yesil {
+            color: #8ca632;
+        }
+        
+        .text-turuncu {
+            color: #e65626;
+        }
+        
+        .text-gri {
+            color: hsla(0, 0%, 100%, .7);
+        }
+        
+        .btn-fistikyesil {
+            background-color: #8ca632;
+        }
+        
+        .btn-fistikyesil:active {
+            outline: none !important;
+            box-shadow: none !important;
+        }
+        
+        .kabul-et a:link {
+            color: rgb(218, 218, 218);
+            border-bottom: 1px solid #a0a0a0;
+        }
+        
+        .kabul-et a:hover {
+            color: #fff;
+            text-decoration: none !important;
+        }
+        
+        input.kayitform {
+            background-color: #424242;
+            border-radius: 0px !important;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        input.kayitform:focus {
+            outline: none !important;
+            box-shadow: none !important;
+            color: hsla(0, 0%, 100%, .7);
+            background-color: #424242;
+            border-bottom: 2px solid #8ca632;
+        }
+        
+        input.kayitform::placeholder {
+            color: hsla(0, 0%, 100%, .7);
+            ;
+        }
+        
+        .custom-control-label::after {
+            background-color: #424242;
+            height: 24px !important;
+            width: 24px !important;
+            border-radius: 0px !important;
+            border: 2px solid #a0a0a0;
+        }
+        
+        .custom-control-label::after:active {
+            background-color: #8ca632;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+        
+        .custom-control-label:nth-child(3) {
+            color: hsla(0, 0%, 100%, .7);
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        
+        .kayitform {
+            border: none;
+            background-color: none !important;
+            border-bottom: 1px solid #fff;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+        
+        .top-sec {
+            background-image: url("img/bg-pattern.png");
+            height: 600px;
+            background-repeat: repeat;
+            background-size: 48px 55px !important;
+        }
+        
+        .nav-side {
+            padding: 0px 260px;
+        }
+        
+        hr.new1 {
+            border: .5px solid rgb(139, 139, 139);
+        }
+        
+        .head-section {
+            height: 510px;
+            background-image: url("img/hero-bg.png");
+            background-size: 85%;
+            background-repeat: no-repeat;
+            background-position: 0 100%;
+        }
+        
+        .form {
+            max-height: 500px;
+            background-color: #424242;
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+        }
+        
+        .head-download-app {
+            margin-top: 80px;
+            margin-right: 130px;
+        }
+        
+        .head-download-app .line {
+            border: .5px solid rgb(206, 206, 206) !important;
+        }
+        
+        .apps img {
+            margin-top: 20px;
+            width: 163px;
+        }
+        
+        ul li {
+            text-decoration: none;
+            list-style: none;
+        }
+        
+        .price-slide {
+            background-color: #424242;
+            height: 70px;
+            padding: 0px 40px;
+        }
+        
+        .price-slide ul {
+            justify-content: space-evenly;
+        }
+        
+        .about-sec {
+            padding-top: 100px;
+            height: 270px;
+            padding: 0px 260px;
+        }
+        
+        .asks a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .propertys {
+            background-color: #3F3F3F;
+            height: 370px;
+            padding: 0px 260px;
+        }
+        
+        .footer {
+            border-top: .5px solid hsla(0, 0%, 100%, .2);
+            background-color: #424242;
+            height: 140px;
+            padding: 0px 260px;
+        }
+        
+        .footer-menu li a {
+            padding: 10px;
+            color: hsla(0, 0%, 100%, .5);
+        }
+        
+        .footer-menu li a:hover {
+            color: hsla(0, 0%, 100%, .7);
+            text-decoration: none;
+        }
+        
+        .social img {
+            border-radius: 3px;
+            margin-top: 3px;
+        }
+        
+        .footer-line .line {
+            border: .5px solid hsla(0, 0%, 100%, .2)!important;
+        }
+        
+        .end-footer .footer-logo {
+            border-radius: 3px;
+        }
+        
+        .end-footer p {
+            color: #959595;
+        }

@@ -1,0 +1,378 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.text-10 {
+    font-size: 10px;
+}
+
+.text-11 {
+    font-size: 11px;
+}
+
+.text-12 {
+    font-size: 12px;
+}
+
+.text-13 {
+    font-size: 13px;
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
+.text-15 {
+    font-size: 15px;
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.text-17 {
+    font-size: 17px;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.text-19 {
+    font-size: 19px;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-21 {
+    font-size: 21px;
+}
+
+.text-25 {
+    font-size: 25px;
+}
+
+.mr-10 {
+    margin-right: 95px;
+}
+
+.top-menu {
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #7B7B7B29;
+    position: sticky;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+.fa-search {
+    color: #FFFFFF;
+}
+
+.form-control {
+    border: none !important;
+    width: 400px !important;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.form-control:active {
+    border: none !important;
+}
+
+.btn-secondary {}
+
+.btn-secondary:active {
+    background-color: #23b42d !important;
+    border: none !important;
+}
+
+.text-main {
+    color: #2ACB35;
+}
+
+.shopping-sec {
+    padding-top: 8px;
+    padding-left: 15px;
+    width: 130px;
+    height: 44px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    background-color: #3C2C3E;
+    color: #FFFFFF;
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 3px;
+    padding-bottom: 5px;
+}
+
+.badge {
+    position: absolute;
+    z-index: 9999;
+    margin-left: 105px;
+    margin-top: 8px;
+    font-weight: 500 !important;
+    border-radius: 3px !important;
+    width: 60px;
+    height: 50px;
+    font-size: 17px !important;
+}
+
+.sliders {
+    padding: 0px !important;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.tb {
+    font-weight: 700;
+}
+
+.tum-urunler {
+    border-bottom: 2px solid rgb(80, 80, 80);
+}
+
+.cart {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.cartt {
+    opacity: 1;
+    padding: 8px 3px !important;
+}
+
+.price {
+    justify-content: center;
+    line-height: 1;
+}
+
+.lh-2-5 {
+    line-height: 2.5;
+}
+
+.second-menu {
+    height: 40px;
+    background: #3C2C3E 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #7B7B7B29;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.second-menu li {
+    font-size: 18px;
+    color: #f1f1f1;
+}
+
+@media screen and (max-width: 767px) {
+    .top-menu {
+        display: none;
+    }
+    .second-menu {
+        display: none;
+    }
+    .sliders {
+        display: none;
+    }
+    .mobile-nav {
+        height: 50px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 6px #00000029;
+    }
+    .pc-add {
+        display: none;
+    }
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+
+/* The side navigation menu */
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    box-shadow: 3px 0px 6px #00000029;
+    z-index: 99999;
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .login {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #2ACB35;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    color: #ffffff;
+    background-color: #2ACB35;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+.bottom-nav {
+    z-index: 99999;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #ffffff;
+    display: flex;
+    overflow-x: auto;
+    opacity: 1;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.274);
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 13px;
+    color: #888888;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link i {
+    font-size: 20px;
+}
+
+.nav__link:hover {
+    background-color: #eeeeee;
+    color: #1b5820;
+}
+
+.nav__link--active {
+    color: #2ACB35;
+    font-weight: 500;
+}
+
+.sliderslar {
+    z-index: 0;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    .add-to-cart {
+        position: absolute;
+        margin-top: 130px;
+        opacity: 0;
+    }
+    .cartt:hover .add-to-cart {
+        opacity: 1;
+        transition: ease 0.3s;
+    }
+    .cartt img,
+    .cartt h4,
+    .cartt p {
+        cursor: pointer;
+    }
+}
+
+.add-to-cart {
+    position: absolute;
+    margin-top: 130px;
+    opacity: 0;
+}
+
+.cartt:hover .add-to-cart {
+    opacity: 1;
+    transition: ease 0.3s;
+}
+
+.cartt img,
+.cartt h4,
+.cartt p {
+    cursor: pointer;
+}

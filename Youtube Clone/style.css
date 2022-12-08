@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+}
+
+.text-10 {
+    font-size: 10px;
+}
+
+.text-11 {
+    font-size: 11px;
+}
+
+.text-12 {
+    font-size: 12px;
+}
+
+.text-13 {
+    font-size: 13px;
+}
+
+.text-14 {
+    font-size: 14px;
+}
+
+.text-15 {
+    font-size: 15px;
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.text-17 {
+    font-size: 17px;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.text-19 {
+    font-size: 19px;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-21 {
+    font-size: 21px;
+}
+
+.text-25 {
+    font-size: 25px;
+}
+
+.pl-7 {
+    padding-left: 30px;
+}
+
+.navbar {
+    background-color: #212121;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #323232 !important;
+    border: none !important;
+}
+
+.btn-secondary:active {
+    background-color: #323232 !important;
+    border: none !important;
+}
+
+.fa-search {
+    color: #6b6b6b;
+}
+
+.form-control {
+    border: none !important;
+    width: 500px !important;
+    background-color: #181818 !important;
+}
+
+.form-control:active {
+    border: none !important;
+}
+
+.search {
+    left: 100%;
+}
+
+.menu {
+    background-color: #212121;
+    position: sticky;
+    height: 100vh;
+}
+
+.line {
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+.ml-10 {
+    margin-left: 50px;
+}
+
+.channel-logo {
+    border-radius: 100%;
+}
+
+.nav-sec {
+    height: 100vh;
+}
+
+.bottom-nav {
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #181818;
+    display: flex;
+    overflow-x: auto;
+    opacity: 1;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.274);
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 13px;
+    color: #6b6b6b;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link:hover {
+    background-color: #eeeeee;
+}
+
+.nav__link--active {
+    color: #b8361f;
+    font-weight: 500;
+}
+
+.bottom-menu-icon {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+    .videolar {
+        margin: 0px 5px;
+    }
+    .videolar .col-md-2 {
+        margin-left: 0px;
+    }
+    .search {
+        display: none !important;
+    }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.407" height="47" viewBox="0 0 64.407 47">
+  <g id="qr" transform="translate(707.5 452)">
+    <g id="Icon_ionic-md-qr-scanner" data-name="Icon ionic-md-qr-scanner" transform="translate(-701.407 -452)">
+      <path id="Path_5" data-name="Path 5" d="M9.25,11.868a1.461,1.461,0,0,1,1.493-1.493h8.3V4.5H10.866a7.434,7.434,0,0,0-7.491,7.368v8.3H9.25Z" transform="translate(-3.375 -4.5)" fill="#192128"/>
+      <path id="Path_6" data-name="Path 6" d="M31.9,4.5H23.625v5.875H31.85a1.524,1.524,0,0,1,1.567,1.493v8.3h5.875v-8.3A7.358,7.358,0,0,0,31.9,4.5Z" transform="translate(11.625 -4.5)" fill="#192128"/>
+      <path id="Path_7" data-name="Path 7" d="M33.417,30.676a1.461,1.461,0,0,1-1.493,1.493h-8.3v6h8.3a7.434,7.434,0,0,0,7.368-7.491V22.5H33.417Z" transform="translate(11.625 8.833)" fill="#192128"/>
+      <path id="Path_8" data-name="Path 8" d="M10.743,32.169A1.461,1.461,0,0,1,9.25,30.676V22.5H3.375v8.176a7.538,7.538,0,0,0,7.491,7.491h8.176v-6Z" transform="translate(-3.375 8.833)" fill="#192128"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="64.407" transform="translate(-707.5 -428.5)" fill="none" stroke="#192128" stroke-width="4"/>
+  </g>
+</svg>
